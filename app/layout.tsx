@@ -24,7 +24,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Echo Browse | Private History Analytics",
+  title: "Browser Wrapped | Private History Analytics",
   description: "Visualize your browser history securely and privately.",
 };
 

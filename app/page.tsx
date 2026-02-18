@@ -68,9 +68,16 @@ export default function Home() {
                   <span>2026 Edition</span>
                 </div>
 
-                <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white drop-shadow-2xl">
-                  Echo <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400">Browse</span>
-                </h1>
+                <div className="flex flex-col items-center gap-6">
+                  <img
+                    src="/logo.svg"
+                    alt="Browser Wrapped logo"
+                    className="h-20 w-20 md:h-24 md:w-24 drop-shadow-2xl"
+                  />
+                  <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white drop-shadow-2xl">
+                    Browser <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400">Wrapped</span>
+                  </h1>
+                </div>
 
                 <p className="text-xl md:text-2xl text-zinc-400 font-light max-w-xl mx-auto leading-relaxed">
                   Unlock insights from your digital journey. <br />
@@ -183,13 +190,13 @@ export default function Home() {
                 </div>
 
                 <a
-                  href="https://github.com/abishek77s/web-wrapped"
+                  href="https://github.com/yusufenesbaranpro/echo-browse"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-purple-300 hover:text-white underline underline-offset-4 transition-colors font-medium text-sm"
                 >
                   <Github className="w-4 h-4" />
-                  Check out on Github
+                  View on GitHub
                 </a>
               </div>
 
@@ -235,8 +242,9 @@ export default function Home() {
             <header className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-xl border-b border-white/5 px-6 py-4 flex justify-between items-center">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-purple-500 animate-pulse" />
+                <img src="/logo.svg" alt="Browser Wrapped logo" className="h-5 w-5" />
                 <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-                  Echo Browse
+                  Browser Wrapped
                 </span>
               </div>
               <button
